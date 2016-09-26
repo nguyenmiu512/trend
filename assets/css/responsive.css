@@ -1,0 +1,66 @@
+/* CSS Document */
+
+@media(min-width: 992px) {
+    /*.tab{width: 50% ;}*/
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+}
+@media (min-width: 320px) and (max-width: 768px) {
+    /*NAV BAR*/
+    .container{
+      width: 320px;
+    }
+/***** INDEX BOX NAV ********/
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2),
+screen and (-webkit-device-pixel-ratio: 1.5) {
+    .in-box-footer .ft-logo a.logo-ft {
+        background: url('../images/logo-footer@2x.png') no-repeat center center;
+        background-size: 80px 68px;
+        width: 160px;
+        display: block;
+        height: 96px;
+        margin-top: 0;
+    }
+    .navbar-header .navbar-logo {
+        background: url('../images/logo-mobile@2x.png') no-repeat 10px 16px;
+        background-size: 178px 34px;
+        width: 191px;
+        display: block;
+        height: 68px;
+    }
+    .in-footer .logo-footer {
+        background: url('../images/logo-footer@2x.png') no-repeat 11px 8px;
+        background-size: 100px 96px;
+        width: 140px;
+        display: block;
+        height: 108px;
+    }
+    .in-footer {
+        background: url('../images/footer-img@2x.png') no-repeat 129px 22px rgba(0, 176, 62, 1);
+        background-size: 180px 24px;
+    }
+    .in-footer ul li a.facebook-ft {
+        background: url('../images/icon-social@2x.png') no-repeat -9px 0px;
+        background-size: 205px 65px;
+    }
+    .in-footer ul li a.googleplus-ft {
+        background: url('../images/icon-social@2x.png') no-repeat -55px 0px;
+        background-size: 205px 65px;
+    }
+    .in-footer ul li a.youtube-ft {
+        background: url('../images/icon-social@2x.png') no-repeat -100px 0px;
+        background-size: 205px 65px;
+    }
+    .in-footer ul li a.instagram-ft {
+        background: url('../images/icon-social@2x.png') no-repeat -146px 0px;
+        background-size: 205px 65px;
+    }
+    #home .block-search .ic-languages-top a {
+        background: url('../images/eng-flag@2x.png') no-repeat 0px 0px;
+        background-size: 22px 22px;
+    }
+}
