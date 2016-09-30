@@ -159,16 +159,20 @@
 	/* **** SLIDER ********/
 	.box-content .box-slider .bg-slider1
 													{background: url('../images/bg-slide.png') no-repeat center center;
-													height:718px;}
+													height:718px;
+													background-size: cover;}
 	.box-content .box-slider .bg-slider2
 													{background: url('../images/bg-slide.png') no-repeat center center;
-													height:718px;}
+													height:718px;
+													background-size: cover;}
 	.box-content .box-slider .bg-slider3
 													{background: url('../images/bg-slider3.jpg') no-repeat center center;
-													height:718px;}
+													height:718px;
+													background-size: cover;}
 	.box-content .box-slider .bg-slider4
 													{background: url('../images/bg-slider4.jpg') no-repeat center center;
-													height:718px;}
+													height:718px;
+													background-size: cover;}
 	.bg-slider-in		{width: 50%;}
 	.box-slider .bg-slider-text
 													{padding-top:120px;}
@@ -372,6 +376,7 @@
 .box-video{
 	background: url('../images/bg-video.png') no-repeat 0 0;
 	height: 370px;
+	background-size: cover;
 }
 .in-box-video,
 .in-box-video .list-video{
