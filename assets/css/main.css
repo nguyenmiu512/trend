@@ -402,7 +402,8 @@
 	display: block;
 	margin:15px 0px;
 }
-.title-item a{
+.title-item a,
+{
 	color:#fff;
 	font-weight: bold;
 	font-family: 'HelveticaNeue', 'Arial', sans-serif;
@@ -413,6 +414,16 @@
 	margin-top: 47px;
 }
 /*DETAIl*/
+.cate-topic ul li{
+	display: inline-block;
+	margin:10px;
+}
+.cate-topic ul li a{
+	font-weight: bold;
+	font-family: 'HelveticaNeue', 'Arial', sans-serif;
+	font-size: 14px;
+	color: #3e3e3e;
+}
 .bg-detail{
 	background: url('../images/bg-slide.png') no-repeat 0 0;
 	height: 682px;
