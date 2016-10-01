@@ -375,6 +375,13 @@
 	height: 370px;
 	background-size: cover;
 }
+.box-video::before{
+	background-color: #000;
+	opacity: 0.8;
+	position: relative;
+	z-index: 99;
+
+}
 .in-box-video,
 .in-box-video .list-video{
 	padding:0;
@@ -685,8 +692,7 @@ margin-top: 16px;
 .ft-mobile{
 	display: none;
 }
-	.sitefooter {
-		display: block;
+.sitefooter {
     background: #f1f1f1
 }
 .sitefooter .wrap-links {
@@ -697,13 +703,13 @@ margin-top: 16px;
 }
 .sitefooter .links {
     position: relative;
-    width: 100%;
+    width: 1000px;
     margin: 0 auto;
     height: 40px
 }
 .sitefooter .links li {
     float: left;
-    margin-right: 30px;
+    border-right: solid 1px #780500
 }
 .sitefooter .links a {
     display: block;
@@ -712,61 +718,61 @@ margin-top: 16px;
     font-size: .75em;
     font-weight: 600;
     height: 30px;
-    padding: 10px 10px 0;
+    padding: 10px 10px 0
 }
 .sitefooter .links a:hover {
-    background: #780500;
+    background: #780500
 }
 .sitefooter .wrap-footer {
     width: 1000px;
     margin: 0 auto;
-    padding: 10px 0;
+    padding: 10px 0
 }
 .sitefooter .networks {
     border-bottom: solid 1px #ddd;
     padding-bottom: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 10px
 }
 .sitefooter .networks li {
     display: inline-block;
     margin-right: 9px;
     font-size: .685em;
-    text-transform: uppercase;
+    text-transform: uppercase
 }
 .sitefooter .networks li:last-child {
-    margin-right: 0;
+    margin-right: 0
 }
 .sitefooter .networks li img {
-    height: 26px;
+    height: 26px
 }
 .sitefooter .networks li a:link {
-    color: #666;
+    color: #666
 }
 .sitefooter .copyright {
-  	overflow: hidden;
+    position: relative
 }
 .sitefooter .copyright p {
     font-size: .685em;
     color: #666;
     line-height: 1.4em;
     margin: 0 0 5px;
-    padding: 0;
+    padding: 0
 }
 .sitefooter .developer {
     position: absolute;
     top: 0;
-    right: 0;
+    right: 0
 }
 .sitefooter .developer .title {
     color: #666;
     text-transform: uppercase;
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 5px
 }
 .sitefooter .developer .logo {
     display: block;
     text-align: right;
-    top: 20px;
+    top: 20px
 }
 	/** JS Circle progess **/
 	.one.circle strong,
