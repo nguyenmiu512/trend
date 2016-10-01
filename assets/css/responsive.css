@@ -12,6 +12,9 @@
     .container{
       width: 100%;
     }
+    .top-search{
+      padding:0px;
+    }
     .ft-mobile{
       display: block;
       background-color: #950700;
@@ -37,6 +40,10 @@
     }
     .top-link-back .ic-topbar a img{
       display: none;
+    }
+    /*INPUT*/
+    #search-box input[type=search]:focus{
+      width: 300px;
     }
 /***** SLIDER ********/
 .bg-slider h3.title-slider, .bg-slider p.para-slider, .text-top-detail h3{
@@ -110,12 +117,29 @@ screen and (-webkit-device-pixel-ratio: 1.5) {
         height: 96px;
         margin-top: 0;
     }
-    .navbar-header .navbar-logo {
-        background: url('../images/logo-mobile@2x.png') no-repeat 10px 16px;
-        background-size: 178px 34px;
-        width: 191px;
-        display: block;
-        height: 68px;
+    .top-link-back .ic-topbar .logo-vnp-back{
+      background: url('../images/ic-back@2x.png') no-repeat center 5px;
+      background-size:20px 20px;
+      width: 100%;
+      height:40px;
+      display: block;
+    }
+    .ic-topbar .logo-trend{
+      background: url('../images/logo-trend@2x.png') no-repeat center 5px;
+      background-size:85px 17px;
+      width: 100%;
+      height: 34px;
+      display: block;
+    }
+    .ic-topbar .logo-trend img{
+      display: none;
+    }
+    .back-link .link-vnplus {
+      background: url('../images/logo-vietnamplus@2x.png') no-repeat center 27px;
+      background-size: 147px 17px;
+      width: 294px;
+      display: block;
+      height: 68px;
     }
     .in-footer .logo-footer {
         background: url('../images/logo-footer@2x.png') no-repeat 11px 8px;
@@ -124,28 +148,5 @@ screen and (-webkit-device-pixel-ratio: 1.5) {
         display: block;
         height: 108px;
     }
-    .in-footer {
-        background: url('../images/footer-img@2x.png') no-repeat 129px 22px rgba(0, 176, 62, 1);
-        background-size: 180px 24px;
-    }
-    .in-footer ul li a.facebook-ft {
-        background: url('../images/icon-social@2x.png') no-repeat -9px 0px;
-        background-size: 205px 65px;
-    }
-    .in-footer ul li a.googleplus-ft {
-        background: url('../images/icon-social@2x.png') no-repeat -55px 0px;
-        background-size: 205px 65px;
-    }
-    .in-footer ul li a.youtube-ft {
-        background: url('../images/icon-social@2x.png') no-repeat -100px 0px;
-        background-size: 205px 65px;
-    }
-    .in-footer ul li a.instagram-ft {
-        background: url('../images/icon-social@2x.png') no-repeat -146px 0px;
-        background-size: 205px 65px;
-    }
-    #home .block-search .ic-languages-top a {
-        background: url('../images/eng-flag@2x.png') no-repeat 0px 0px;
-        background-size: 22px 22px;
-    }
+
 }
