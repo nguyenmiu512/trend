@@ -153,11 +153,11 @@
 
 	/* **** SLIDER ********/
 	.box-content .box-slider .bg-slider1
-													{background: url('../images/bg-slide.png') no-repeat center center;
+													{background: url('../images/bg-slide.jpg') no-repeat center center;
 													height:718px;
 													background-size: cover;}
 	.box-content .box-slider .bg-slider2
-													{background: url('../images/bg-slide.png') no-repeat center center;
+													{background: url('../images/bg-slide.jpg') no-repeat center center;
 													height:718px;
 													background-size: cover;}
 	.box-content .box-slider .bg-slider3
@@ -371,7 +371,7 @@
 	margin:28px 0px;
 }
 .box-video{
-	background: url('../images/bg-video.png') no-repeat 0 0;
+	background: url('../images/bg-video.jpg') no-repeat 0 0;
 	height: 370px;
 	background-size: cover;
 }
@@ -385,6 +385,12 @@
 .in-box-video,
 .in-box-video .list-video{
 	padding:0;
+}
+.list-video .title-item-video a{
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'HelveticaNeue', 'Arial', sans-serif;
+	color:#fff;
 }
 .link-video a{
 	display: block;
@@ -692,7 +698,7 @@ margin-top: 16px;
 .box-top2 ul li{
 	list-style-type: inherit;
   display: inline-block;
-  margin: 5px 0px;
+  margin: 0px 4px 12px 0px;
 }
 .box-top2 ul li a{
 	background-color: #000;
