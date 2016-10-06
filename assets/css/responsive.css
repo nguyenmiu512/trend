@@ -1,114 +1,140 @@
 /* CSS Document */
 
-@media(min-width: 992px) {
+@media (min-width: 992px) {
     /*.tab{width: 50% ;}*/
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
+    /*.tab{width: 50% ;}*/
 
 }
+
 @media (min-width: 320px) and (max-width: 768px) {
     /*NAV BAR*/
-    .container{
-      width: 100%;
+    .container {
+        width: 100%;
     }
-    .top-search{
-      padding:0px;
+
+    .top-search {
+        padding: 0px;
     }
-    .ft-mobile{
-      display: block;
-      background-color: #950700;
-      height: 80px;
+
+    .ft-mobile {
+        display: block;
+        background-color: #950700;
+        height: 80px;
     }
-    .back-link .link-vnplus{
-      background: url('../images/logo-vietnamplus.png') no-repeat center center;
-      display: block;
-      width: 163px;
-      height: 75px;
-      margin: 0px auto;
-      padding-top: 20px;
+
+    .back-link .link-vnplus {
+        background: url('../images/logo-vietnamplus.png') no-repeat center center;
+        display: block;
+        width: 163px;
+        height: 75px;
+        margin: 0px auto;
+        padding-top: 20px;
 
     }
-    .sitefooter{
-      display: none;
+
+    .sitefooter {
+        display: none;
     }
-    .top-link-back .ic-topbar a{
-      background: url('../images/ic-back.png') no-repeat 0 0;
-      display: block;
-      height: 20px;
-      width: 20px;
+
+    .top-link-back .ic-topbar a {
+        background: url('../images/ic-back.png') no-repeat 0 0;
+        display: block;
+        height: 20px;
+        width: 20px;
     }
-    .top-link-back .ic-topbar a img{
-      display: none;
+
+    .top-link-back .ic-topbar a img {
+        display: none;
     }
+
     /*INPUT*/
-    #search-box input[type=search]:focus{
-      width: 300px;
+    #search-box input[type=search]:focus {
+        width: 300px;
     }
-/***** SLIDER ********/
-.bg-slider h3.title-slider, .bg-slider p.para-slider, .text-top-detail h3{
-  font-size: 31px;
+
+    /***** SLIDER ********/
+    .bg-slider h3.title-slider, .bg-slider p.para-slider, .text-top-detail h3 {
+        font-size: 31px;
+    }
+
+    h3.title-home {
+        text-align: center;
+    }
+
+    .hot-news ul li {
+        margin: 16px 0px;
+        border-bottom: inherit;
+    }
+
+    .title-home-slide {
+        text-align: inherit !important;
+    }
+
+    /***** VIDEO ********/
+    .box-video {
+        background-size: cover;
+        height: 100% !important;
+        padding: 0px 0px 28px 0px;
+    }
+
+    .in-box-video, .in-box-video .list-video {
+        margin: 10px 0px;
+    }
+
+    /*MORE NEWS*/
+    .in-video-more, .list-news-more, .img-news-more, .link-news-more {
+        overflow: hidden;
+    }
+
+    .img-news-more a {
+        width: 100% !important;
+        height: inherit;
+    }
+
+    .link-news-more .short-desc {
+        display: none;
+    }
+
+    .link-news-more {
+        padding-left: 10px;
+    }
+
+    .link-news-more .title-news-more {
+        display: block;
+        height: 72px;
+    }
+
+    .info-more .topic, .info-more .time-post {
+        font-size: 10px !important;
+    }
+
+    .box-item-news .link-image a {
+        width: 100%;
+    }
+
+    .top-news-more {
+        padding: 0px;
+        padding-top: 20px;
+    }
+
+    .hot-news ul {
+        margin-top: 0px;
+    }
+
+    .link-video a {
+        margin: 0 auto;
+    }
+
+    /* DETAIL */
+    .top-detail, .text-top-detail {
+        padding: 0px;
+    }
 }
-h3.title-home{
-  text-align: center;
-}
-.hot-news ul li{
-      margin: 16px 0px;
-      border-bottom:inherit;
-}
-.title-home-slide{
-  text-align: inherit !important;
-}
-/***** VIDEO ********/
-.box-video{
-  background-size: cover;
-  height: 100% !important;
-  padding: 0px 0px 28px 0px;
-}
-.in-box-video, .in-box-video .list-video{
-  margin:10px 0px;
-}
-/*MORE NEWS*/
-.in-video-more, .list-news-more, .img-news-more, .link-news-more{
-  overflow: hidden;
-}
-.img-news-more a{
-      width: 100% !important;
-      height: inherit;
-}
-.link-news-more .short-desc{
-  display: none;
-}
-.link-news-more{
-  padding-left:10px;
-}
-.link-news-more .title-news-more{
-  display: block;
-height: 72px;
-}
-.info-more .topic, .info-more .time-post{
-  font-size:10px !important;
-}
-.box-item-news .link-image a{
-  width: 100%;
-}
-.top-news-more{
-  padding:0px;
-  padding-top: 20px;
-}
-.hot-news ul{
-  margin-top:0px;
-}
-.link-video a{
-  margin: 0 auto;
-}
-/* DETAIL */
-.top-detail,.text-top-detail{
-  padding:0px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min-device-pixel-ratio: 2),
-screen and (-webkit-device-pixel-ratio: 1.5) {
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), screen and (-webkit-device-pixel-ratio: 1.5) {
     .in-box-footer .ft-logo a.logo-ft {
         background: url('../images/logo-footer@2x.png') no-repeat center center;
         background-size: 80px 68px;
@@ -117,37 +143,43 @@ screen and (-webkit-device-pixel-ratio: 1.5) {
         height: 96px;
         margin-top: 0;
     }
-    .top-link-back .ic-topbar .logo-vnp-back{
-      background: url('../images/ic-back@2x.png') no-repeat center 5px;
-      background-size:20px 20px;
-      width: 100%;
-      height:40px;
-      display: block;
+
+    .top-link-back .ic-topbar .logo-vnp-back {
+        background: url('../images/ic-back@2x.png') no-repeat center 5px;
+        background-size: 20px 20px;
+        width: 100%;
+        height: 40px;
+        display: block;
     }
-    input[type=search]{
-      background: url('../images/ic-search@2x.png') no-repeat center 5px;
-      background-size:20px 20px;
-      width: 40px;
-      height: 40px;
-      display: block;    
+
+    input[type=search] {
+        background: url('../images/ic-search@2x.png') no-repeat center 5px;
+        background-size: 20px 20px;
+        width: 40px;
+        height: 40px;
+        display: block;
     }
-    .ic-topbar .logo-trend{
-      background: url('../images/logo-trend@2x.png') no-repeat center 5px;
-      background-size:85px 17px;
-      width: 100%;
-      height: 34px;
-      display: block;
+
+    .ic-topbar .logo-trend {
+        background: url('../images/logo-trend@2x.png') no-repeat center 5px;
+        background-size: 85px 17px;
+        width: 100%;
+        height: 34px;
+        display: block;
     }
-    .ic-topbar .logo-trend img{
-      display: none;
+
+    .ic-topbar .logo-trend img {
+        display: none;
     }
+
     .back-link .link-vnplus {
-      background: url('../images/logo-vietnamplus@2x.png') no-repeat center 27px;
-      background-size: 147px 17px;
-      width: 294px;
-      display: block;
-      height: 68px;
+        background: url('../images/logo-vietnamplus@2x.png') no-repeat center 27px;
+        background-size: 147px 17px;
+        width: 294px;
+        display: block;
+        height: 68px;
     }
+
     .in-footer .logo-footer {
         background: url('../images/logo-footer@2x.png') no-repeat 11px 8px;
         background-size: 100px 96px;
