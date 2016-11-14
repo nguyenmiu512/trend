@@ -1,12 +1,16 @@
 /* CSS Document */
 
 @media (min-width: 992px) {
+  .container-custom {
+    width: 960px;
     /*.tab{width: 50% ;}*/
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
     /*.tab{width: 50% ;}*/
-
+    .container-custom{
+      width: 768px;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
